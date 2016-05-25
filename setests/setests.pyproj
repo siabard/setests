@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>4e3b082e-8b3f-4c48-9421-12fa25772029</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>setests.py</StartupFile>
+    <StartupFile>searchproducts.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -22,6 +22,9 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="searchproducts.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="setests.py" />
   </ItemGroup>
   <PropertyGroup>
